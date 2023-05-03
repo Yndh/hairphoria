@@ -36,10 +36,16 @@
 .footerTab .footerCol{
     height: 120px;
 }
-.footerTab li{
+.footerCol ul{
+    padding: 0 20px;
+}
+.footerCol li{
     list-style-type: none;
 }
-.footerTab li a{
+.footerCol li i{
+    margin-right: 7px;
+}
+.footerCol li a{
     color: white;
     text-decoration: none;
 }

@@ -25,9 +25,18 @@ const Footer = () => {
           <div className="footerCol">
             <p>Kontakt</p>
             <ul>
-              <li>+48 754 417 785</li>
-              <li>kontakt@hairphoria.pl</li>
-              <li>ul. Jana Pawła 2</li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                +48 754 417 785
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                kontakt@hairphoria.pl
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                ul. Jana Pawła 2
+              </li>
             </ul>
           </div>
 
@@ -52,8 +61,18 @@ const Footer = () => {
           <div className="footerCol">
             <p>Obserwuj</p>
             <ul>
-              <li>hairphoria.salon</li>
-              <li>hairphoria</li>
+              <li>
+                <a href="https://facebook.com" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                  hairphoria.salon
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                  @hairphoria
+                </a>
+              </li>
             </ul>
           </div>
         </div>

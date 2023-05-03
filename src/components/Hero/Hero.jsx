@@ -14,12 +14,11 @@ const Hero = () => {
           </div>
           <div className="right__container">
             <svg
-              width="522"
-              height="499"
               viewBox="0 0 522 499"
               xmlns="http://www.w3.org/2000/svg"
               fill="#EB6848"
               fill-opacity="0.6"
+              className='heroPhoto'
             >
               <defs>
                 <pattern

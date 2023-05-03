@@ -17,6 +17,9 @@
 .hero .right__container{
     width: 30%;
 }
+.heroPhoto{
+    width: 100%;
+}
 
 .bottomWave{
     width: 100%;
