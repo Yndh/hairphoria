@@ -1,0 +1,45 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 300px;
+    
+
+    color: white;
+    background: #353535;
+
+    z-index: 2;
+}
+.footer *{
+    z-index: 3;
+}
+.footer__container .wave{
+    transform: translateY(35%);
+    z-index: -1;
+}
+.footerTab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 70%;
+}
+.footerTab .logo p{
+    opacity: 1;
+    font-size: 25px;
+}
+.footerTab .logo span{
+    text-transform: capitalize;
+}
+.footerTab .footerCol{
+    height: 120px;
+}
+.footerTab li{
+    list-style-type: none;
+}
+.footerTab li a{
+    color: white;
+    text-decoration: none;
+}

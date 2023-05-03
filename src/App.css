@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto&display=swap');
+
+
+* {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Outfit', sans-serif;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+h1{
+  margin: 0;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 82px;
+  font-weight: bold;
 }
+h2{
+  margin: -10px 0 10px 0;
 
-.App-link {
-  color: #61dafb;
+  font-size: 50px;
+  font-weight: bold;
 }
+span{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  opacity: .7;
+}
+p{
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  opacity: .7;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+button{
+  padding: 15px 150px;
+  margin: 30px 0;
+
+  background: #FFE8D6;
+
+  border-radius: 15px;
+  border: none;
+  outline: none;
 }
