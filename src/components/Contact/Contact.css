@@ -24,3 +24,21 @@
     
     border-radius: 25px;
 }
+.contact button::after {
+    position: absolute;
+    top: -25%;
+    right: -3%;
+
+    font-family: 'Roboto', sans-serif;
+    content: 'Skopiowane!';
+    background: #353535;
+    color: white;
+    font-weight: 600;
+    padding: 5px 7px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: .3s;
+}
+.contact .copied::after{
+    opacity: 1;
+}
