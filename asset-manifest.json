@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/hairphoria/static/css/main.ea2e66cb.css",
+    "main.js": "/hairphoria/static/js/main.6c951ac2.js",
+    "static/js/787.edf19820.chunk.js": "/hairphoria/static/js/787.edf19820.chunk.js",
+    "static/media/galery4.png": "/hairphoria/static/media/galery4.5597c2c78c565f7e063e.png",
+    "static/media/galery6.png": "/hairphoria/static/media/galery6.c7b472173099b658db6f.png",
+    "static/media/galery3.png": "/hairphoria/static/media/galery3.b256dfced56055f57491.png",
+    "static/media/hero.png": "/hairphoria/static/media/hero.57b7f3a0797bd2528c31.png",
+    "static/media/galery2.png": "/hairphoria/static/media/galery2.8f355afa326a9ef8aed0.png",
+    "static/media/galery1.png": "/hairphoria/static/media/galery1.4a75ea293c8bc98ecb08.png",
+    "static/media/galery5.png": "/hairphoria/static/media/galery5.84ddc260c410cbc836ab.png",
+    "static/media/owner.png": "/hairphoria/static/media/owner.508d6e4ee348eab2194e.png",
+    "static/media/barber1.png": "/hairphoria/static/media/barber1.6d023e75807f2d3d0f5f.png",
+    "static/media/barber2.png": "/hairphoria/static/media/barber2.02ee50c104d051beb4fb.png",
+    "static/media/marker.webp": "/hairphoria/static/media/marker.70269c5147262a4343c7.webp",
+    "index.html": "/hairphoria/index.html",
+    "main.ea2e66cb.css.map": "/hairphoria/static/css/main.ea2e66cb.css.map",
+    "main.6c951ac2.js.map": "/hairphoria/static/js/main.6c951ac2.js.map",
+    "787.edf19820.chunk.js.map": "/hairphoria/static/js/787.edf19820.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea2e66cb.css",
+    "static/js/main.6c951ac2.js"
+  ]
+}
