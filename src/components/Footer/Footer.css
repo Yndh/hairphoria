@@ -23,6 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
     width: 70%;
 }
@@ -48,4 +49,23 @@
 .footerCol li a{
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 600px){
+    .footer{
+        height: auto;
+    }
+    .footerTab{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        padding-top: 50px;
+    }
+    .footer .logo{
+        margin-bottom: 10px;
+    }
+    .footerTab .footerCol{
+        margin: 10px 0;
+    }
 }

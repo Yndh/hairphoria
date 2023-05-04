@@ -1,18 +1,25 @@
 .navbar {
     display: flex;
+    position: relative;
     justify-content: space-around;
     align-items: center;
 
     width: 100%;
     height: auto;
 
+    padding: 10px 20px;
+
     background: #F5B3A3;
+
+    box-sizing: border-box;
 }
 
 .navbar .logo {
     color: white;
+    opacity: 1;
     font-size: 25px;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 .navbar li {
@@ -29,4 +36,16 @@
 .navbar li a {
     color: white;
     text-decoration: none;
+
+    transition: .3s;
+}
+.navbar li a:hover{
+    opacity: .8;
+}
+
+@media (max-width: 600px) {
+    .navbar ul{
+        display: none;
+
+    }
 }

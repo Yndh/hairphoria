@@ -1,3 +1,6 @@
+.hero__container{
+    width: 100%;
+}
 .hero{
     position: relative;
     display: flex;
@@ -15,7 +18,15 @@
 
 .hero .left__container,
 .hero .right__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 30%;
+    margin: 0 30px;
+}
+.hero .right__container{
+    display: flex;
+    align-items: center;
 }
 .heroPhoto{
     width: 100%;
@@ -24,4 +35,19 @@
 .bottomWave{
     width: 100%;
     transform: translateY(-15%);
+}
+@media (max-width: 600px) {
+    .hero{
+        flex-direction: column;
+        height: auto;
+    }
+    .hero .left__container,
+    .hero .right__container{
+        justify-content: center;
+        text-align: center;
+
+        width: 80%;
+
+        margin: 30px 0;
+    }
 }

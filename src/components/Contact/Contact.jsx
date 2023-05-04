@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./Contact.css";
 
 const Contact = () => {
-  const [isClicked, setIsClicked] = useState(false)
+  const [isClicked, setIsClicked] = useState(false);
   const contactNumber = "+48 754 417 785";
 
   useEffect(() => {
@@ -21,9 +21,21 @@ const Contact = () => {
   }, [isClicked]);
 
   const copyToClipboard = (text) => {
-    navigator.clipboard.writeText(text)
-    setIsClicked(true)
-  }
+    if(!navigator.clipboard){
+      console.error('Clipboard API not found')
+      return;
+    }
+
+    navigator.clipboard
+      .writeText(text)
+      .then(() => {
+        console.log("Text copied to clipboard");
+        setIsClicked(true);
+      })
+      .catch((err) => {
+        console.error("Error copying text to clipboard: ", err);
+      });
+  };
 
   return (
     <div className="contact__container" id="contact">
@@ -31,7 +43,12 @@ const Contact = () => {
         <p>Kontakt</p>
         <h2>Skontaktuj się z nami</h2>
 
-        <button onClick={() => {copyToClipboard(contactNumber)}} className={isClicked ? 'copied' : ''}>
+        <button
+          onClick={() => {
+            copyToClipboard(contactNumber);
+          }}
+          className={isClicked ? "copied" : ""}
+        >
           <p>{contactNumber}</p>
         </button>
       </div>
